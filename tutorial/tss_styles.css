@@ -33,6 +33,9 @@
 	article#about_tss h2{
 		color: white;
 		background-color: rgb(235,177,131);}
+	article.syllabyus h1, article.syllabus h2{
+		background-color: rgb(255,185,255);
+		color:rgb(101,101,101);}
 
 
 
