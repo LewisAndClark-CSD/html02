@@ -26,9 +26,7 @@ body {
     background-color: ivory;
     font-family: Verdana, Geneva, sans-serif;
 }
-nav > ul {
-    line-height: 2em;
-}
+
 /* Heading Styles */
 h1 {
     font-size: 2.2em;
@@ -68,6 +66,7 @@ nav {
 }
 nav > ul {
     line-height: 2em;
+    list-style-type: none;
 }
 
 
