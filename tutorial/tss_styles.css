@@ -87,6 +87,14 @@ article.syllabus ol ol ol {
 list-style-type: decimal;}
 article#about_tss ul {
 	list-style-image:url(runicon.png);}
+article#about_tss ul li:first-of-type{
+	list-style-image: url(runicon.png);}
+article#about_tss ul li:first-of-type(2){
+		list-style-image: url(bikeicon.png);}
+article#about_tss ul li:first-of-type{
+		list-style-image: url(swimicon.png);}
+		
+
 
 
 
