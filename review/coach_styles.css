@@ -61,7 +61,12 @@ article.coach_bio h2 {
 }
 
 /* Blockquote Styles */
-
+aside blockquote {
+    font-size: 0.95em;
+    font-family: 'Comic Sans MS', cursive;
+    color: rgba(255, 255, 255, 0.75);
+    background-color: rgb(240, 125, 0);
+}
 
 
 
