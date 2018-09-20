@@ -1,0 +1,58 @@
+@charset "utf-8"
+
+@font-face {
+	font-family: Champagne;
+	src: url("cac_champagne.woff") format("woff"),
+			url("cac_champagne.ttf") format("truetype");
+}
+@font-face {
+	font-family: 1942;
+	src: url("1942.woff") format("woff"),
+			url("1942.ttf") format("truetype");
+}
+@font-face {
+	font-family: DobkinPlain;
+	src: url("DobkinPlain.woff") format("woff"),
+			url("DobkinPlain.ttf") format("truetype");
+}
+/*
+   New Perspectives on HTML5 and CSS3, 7th Edition
+   Tutorial 2
+   Case Problem 1
+   
+   PHCT Typographic Style Sheet
+   Author:  Steven Thompson and Josh Bentley
+   Date:   9/20/2018
+   
+   Filename: ph_styles.css
+
+*/
+
+
+/* Structural Styles */
+
+	html{
+		background-color: hsl(91, 8%, 56%);
+		}
+		
+	body{
+		font-family: "Palatino Linotype", "Book Antiqua", "Palatino", "serif";
+		background-color: hsl(58, 31%, 84%);
+		}	
+	header{
+		background-color: black;
+		}
+
+
+/* Navigation Styles */
+
+
+
+
+/* Section Styles */
+
+
+
+
+/* Description List Styles */
+
