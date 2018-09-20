@@ -1,7 +1,7 @@
 
 @charset="utf-8";
 @font-face{
-	font-famliy: Nobile;
+	font-family: Nobile;
 	src: url('nobile-webfont.woff') format('woff'),
 	url('Nobile-webfont.tff') format('truetype');}
 
@@ -20,7 +20,23 @@
 
 
 /* Main Structural Styles */
-
+	html{
+		background-color: hsl(27, 72%, 72%);}
+	
+	body{
+		color: rgb(91,91,91);
+		background-color: ivory;
+		font-family: Verdana, Geneva, sans-serif;}
+	
+	Body > fooder adress {
+		background-color: rgb(222, 128, 60);
+		color: white; 
+		color: rgba:(255, 255, 255, 0.6);
+		font: normal small-caps bold 0.9em/3em
+				Nobile, Verdana, Geneva, sans-serif;
+		text-align: horizontal-center;}	
+		
+	
 
 
 
