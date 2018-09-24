@@ -1,0 +1,39 @@
+@charset 'utf-8';
+@font-face {
+    font-family: Champagne;
+    src: url('cac_champagne.woff') format('woff'),
+        url('cac_champange.ttf') format('truetype'); 
+        
+    
+    
+/*
+   New Perspectives on HTML5 and CSS3, 7th Edition
+   Tutorial 2
+   Case Problem 1
+   
+   PHCT Typographic Style Sheet
+   Author: E. Ruiz and Lane Doyle
+   Date:   9/24/18
+   
+   Filename: ph_styles.css
+
+*/
+
+
+/* Structural Styles */
+
+
+
+
+/* Navigation Styles */
+
+
+
+
+/* Section Styles */
+
+
+
+
+/* Description List Styles */
+
