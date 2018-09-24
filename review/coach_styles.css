@@ -65,10 +65,12 @@
 	aside blockquote{
 		font-size: 0.95em;
 		font-family: 'Comic Sans MS',cursive;
+		color: rbga(255,255,255,0.75);
+		background-color: rgb(222,128,60);
+		padding: 10px;
+		quotes: "/201C" "/201D";
 		
-		
-
-
+	}
 
 
 /* Navigation Styles */	
