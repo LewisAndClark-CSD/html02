@@ -12,13 +12,17 @@
 */
 @charset "utf-8";
 @font-face {
-    font-family: myFirstFont;
-    src: url(cac_champagne.woff);
+    font-family: champagne;
+    src: url('cac_champagne.woff') format ('Woff'):
+	url('cac_champagne.ttf') format('truetype');
+	font-family: Grunge;
+    src: url('1942.woff') format ('Woff'):
+	url('1942.ttf') format('truetype');
+	font-family: Dobkin;
+    src: url('DobkinPlain.woff') format ('Woff'):
+	url('DobkinPlain.ttf') format('truetype');
 }
-@font-face {
-    font-family: myFirstFont;
-    src: url(cac_champagne.ttf);
-}
+
 
 /* Structural Styles */
 body {
