@@ -60,7 +60,13 @@ address {
 
 
 /* Navigation Styles */
+nav a {
+	font-text: 'Trebuchet MS', Helvetica, sans-serif;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
 
+nav > a:
 
 
 
