@@ -94,4 +94,13 @@
 		color: rgb(81, 95, 175);
 	}
 /* Blockquote Styles */
-
+	blockquote p{
+		padding-top: 2.5px;
+		padding-bottom: 2.5px;
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+	blockquote {
+		background-color: rgb(173, 189, 227);
+		color: hsla(360, 100%, 100%, 0.65);
+	}
