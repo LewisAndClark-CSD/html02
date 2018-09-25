@@ -1,12 +1,16 @@
 @charset="utf-8";
 @font-face{
-	font-family:"Champagne, Grunge, Dobkin";
-	src: url('cac_champagne.woff') format('woff'),
-	url('cac_champagne.tff') format('truetype');
-	src: url('1942.woff') format('woff'),
-	url('1942.tff') format('truetype');
-	src: url('DobkinPlain.woff') format('woff'),
-	url('DobkinPlain.tff') format('truetype');}
+		font-family:Champagne;
+		src: url('cac_champagne.woff') format('woff'),
+		url('cac_champagne.tff') format('truetype');}
+@font-face{	
+		font-family:Grune;	
+		src: url('1942.woff') format('woff'),
+		url('1942.tff') format('truetype');}
+@fon-face{
+		font-family:Dobkin;
+		src: url('DobkinPlain.woff') format('woff'),
+		url('DobkinPlain.tff') format('truetype');}
 	
 
 	
@@ -55,7 +59,13 @@
 		
 
 /* Navigation Styles */
-
+nav > ul > li > a{
+	font-family: 'Trebuchet MS', Helvetica, sans-serif,;
+	padding-top:10px;
+	padding-bottom:10px;}
+	
+	
+	
 
 
 
