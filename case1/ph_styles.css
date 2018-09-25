@@ -70,13 +70,13 @@ nav {
 	padding-bottom: 10px;
 }
 
-nav > a:link, nav > a:visited {
+nav > ul > li > a:link, nav > ul > li > a:visited {
 	color: white;
 	text-decoration: none;
 	background-color: hsla(0, 0%, 42%, 0.4);
 }
 
-nav > a:hover, nav > a:active {
+nav > ul > li > a:hover, nav > ul > li > a:active {
 	color: hsla(0, 0%, 100%, 0.7);
 	background-color: (0, 0%, 42%, 0.7);
 }
