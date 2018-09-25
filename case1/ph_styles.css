@@ -82,6 +82,10 @@
 	section.playbill#play2 h1{
 		font-family: Grunge, "Times New Roman", Times, serif;
 	}
+	/*
+	font-family: impact, charcoal, sans-serif does not work
+	because windows fonts don't work on Linux
+	*/
 	section.playbill#play3 h1{
 		font-family: Impact, Charcoal, sans-serif;
 	}
@@ -104,13 +108,21 @@
 		font-size: 3em;
 		font-weight: normal;
 		margin: 0px;
-		
 		padding-top: 20px;
 		padding-right: 0px;
 		padding-bottom: 10px;
 		padding-left: 20px;
 	}
 
-
 /* Description List Styles */
 
+	dt {
+		font-size: 1.3em;
+		font-weight: bold;
+		color: hsla(0, 0%, 0%, .4);
+		}
+	dd {
+		font-size: 1.3em;
+		margin-left: 0px;
+		margin-bottom: 10px;
+		}
