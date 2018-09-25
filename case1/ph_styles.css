@@ -31,29 +31,33 @@
 		color: hsl(58,31%,84%);
 		font-family: 'Palatino Linotype', 'Book Antiqua', 'Palatino, serif.';
 	}
-	header{
+	body > header{
 		background-color: #82a43a;}
 	h1{
 		margin:0px;
 		padding-top:5px;
 		padding-right:25px;
 		padding-bottom:25px;
-		padding-left:25px;}
+		padding-left:25px;
+		font-size:1.1em;
+		text-align:horizontal;}
+	body > address{
+		 font-style:normal;
+		 font-size: 0.9em;
+		 text-align:horizontal;
+		 padding-top:10px;
+		 padding-bottom:10px;}
 		
 		
 		
 		
 		
 		
-		
-		
-	
-		
-
-
-
 
 /* Navigation Styles */
+
+
+
 
 
 
