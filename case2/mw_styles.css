@@ -69,15 +69,33 @@ nav > ul > li > a:hover, nav > ul > li > a:active {
 
 /* Article Styles */
 
-article#tour_sumary h1 {
+article#tour_summary h1 {
 	font-size: 2.2em;
 	letter-spacing: 0.2em;
 }
 
+article#tour_summary p {
+	font-size:1.1em;
+}
 
+article#tour_summary p:first-of-type:first-line {
+	font-size: 1.2em;
+	font-variant: small-caps;
+}
+
+	
 /* Aside Styles */
 
+aside#tour_itinerary h1 {
+	font-size:1.2em;
+}
 
+aside#tour_itinerary h2 {
+	font-size: 0.9em;
+}
 
+aside#tour_itinerary p {
+	font-size:0.8em;
+}
 /* Blockquote Styles */
 
