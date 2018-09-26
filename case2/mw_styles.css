@@ -108,3 +108,7 @@ aside#tour_itinerary h2:nth-of-type(even), aside#tour_itinerary p:nth-of-type(ev
 	
 /* Blockquote Styles */
 
+blockquote {
+	background-color: rgb(173, 189, 227);
+	color: rgba(255, 255, 255, 0.65);
+	
