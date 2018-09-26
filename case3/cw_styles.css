@@ -74,11 +74,11 @@ body > header > h1 > span {
 	color: white;
 		text-decoration: none;
 }
-nav a:hover {
+#mainLinks a:hover {
 	opacity: 0.8;
 	background-color: rgba(51, 51, 51, 0.5);
 }
-nav a:active {
+#mainLinksa:active {
 	opacity: 0.8;
 	background-color: rgba(51, 51, 51, 0.5);
 }
@@ -94,28 +94,63 @@ nav a:active {
 	text-align: center;
 }
 
-#outline li {
+#roman {
 	line-height: 2em;
 	margin-top: 0px;
 	margin-bottom: 0px;
 	margin-left: 5px;
 	margin-right: 5px;
-/*	list-style-type: upper-roman;*/
+	list-style-type: upper-roman;
 }
 
-#outline li > ol {
+#outline ol > li > ol {
 	list-style-type: upper-alpha;
 }
 
-/* Section Styles */
+#outline a:visited {
+	color: rgb(101, 101, 101);
+		text-decoration: none;
+}
+#outline a:link{
+	color: rgb(101, 101, 101);
+		text-decoration: none;
+}
+#outline a:hover {
+	color: rgb(97, 97, 211);
+}
+#outline a:active {
+	color: rgb(97, 97, 211);
 
+}
+
+/* Section Styles */
+section {
+	background-color: rgb(220, 220, 220);
+}
+
+section header {
+	font-size: 2.2em;
+	padding-left: 10px;
+}
 
 
 
 /* Article Styles */
-
-
-
+article > h2 {
+	font-size: 1.4em;
+}
+article p:first-of-type:first-letter{
+	font-size: 2em;
+	vertical-align: baseline;
+}
 
 /* Aside Styles */
+aside {
+	font-size: 0.9em;
+}
+
+aside h1 {
+	font-size: 1.4em;
+	text-align: center;
+}
 
