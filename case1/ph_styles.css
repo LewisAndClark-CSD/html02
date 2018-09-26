@@ -90,22 +90,22 @@
 		padding-bottom:10px;
 		padding-left:20px;}
 	/* setting the background color*/
-	section.playbill play1{
+	section#play1 h1{
 		background-color:hsl(240,100%,88%)}
-	section.playbill play2{
+	section#play2 h1{
 		background-color:hsl(25,88%,73%)}
-	section.playbill play3{
+	section#play3 h1{
 		background-color:hsl(0,100%,75%)}
-	section.playbill play4{
+	section#play4 h1{
 		background-color:hsl(296,86%,86%)}
 	/*setting the font*/		
-	section.playbill play1{
+	section#play1 h1{
 		font-family:Champagne, cursive;}
-	section.playbill play2{
+	section#play2 h1{
 		font-family:Grunge,'Times New Roman',Times, serif;}
-	section.playbill play3{
+	section#play3 h1{
 		font-family:Impact,Charcoal, sans-serif;}
-	section.playbill play4{
+	section#play4 h1{
 		font-family:Dobkin, cursive;}
 
 
