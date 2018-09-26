@@ -90,22 +90,22 @@
 		padding-bottom:10px;
 		padding-left:20px;}
 	/* setting the background color*/
-	section#play1 h1{
+	section#play1{
 		background-color:hsl(240,100%,88%)}
-	section#play2 h1{
+	section#play2{
 		background-color:hsl(25,88%,73%)}
-	section#play3 h1{
+	section#play3 {
 		background-color:hsl(0,100%,75%)}
-	section#play4 h1{
+	section#play4 {
 		background-color:hsl(296,86%,86%)}
 	/*setting the font*/		
-	section#play1 h1{
+	section#play1 {
 		font-family:Champagne, cursive;}
-	section#play2 h1{
+	section#play2{
 		font-family:Grunge,'Times New Roman',Times, serif;}
-	section#play3 h1{
+	section#play3{
 		font-family:Impact,Charcoal, sans-serif;}
-	section#play4 h1{
+	section#play4{
 		font-family:Dobkin, cursive;}
 
 
@@ -114,4 +114,23 @@
 
 
 /* Description List Styles */
+	dt{
+		font-size:1.3em;
+		font-weight:bold;
+		font:hsla(0,0%,0.4);}
+	dd{
+		 font-size:1.3em;
+		 margin-left:0px;
+		 margin-bottom:10px;}
+
+
+
+
+
+
+
+
+
+
+
 
