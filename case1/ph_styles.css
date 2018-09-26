@@ -37,13 +37,13 @@
 	}
 	body > header{
 		background-color: rgb(0,0,0);}
-	h1{
+	p{
 		margin:0px;
 		padding-top:5px;
 		padding-right:25px;
 		padding-bottom:25px;
 		padding-left:25px;}
-	h2{
+	p{
 		font-size:1.1em;
 		text-align:horizontal;}
 	body > address{
@@ -51,13 +51,10 @@
 		 font-size: 0.9em;
 		 text-align:horizontal;
 		 padding-top:10px;
-		 padding-bottom:10px;}
-		
-		
-		
-		
-		
-		
+		 padding-bottom:10px;
+	}
+	
+	
 
 /* Navigation Styles */
 	nav > ul > li > a{
@@ -67,11 +64,11 @@
 	nav > ul > li > a:link, nav > ul > li > a:visited {
 		color: rgb(255,255,255);
 		background-color:hsla(0,0%,42%,0.4);
-		text-decoration: none }
+		text-decoration: none ;}
 	nav > ul > li > a:link, nav > ul > li > a:active {
 		color: hsla(0, 0%, 100%,0.7);
 		background-color:hsl(0,0%,42%, 0.7);
-		text-decoration: underline; }	
+		text-decoration: none; }	
 	
 	
 	
@@ -92,13 +89,13 @@
 		padding-left:20px;}
 	/* setting the background color*/
 	section#play1{
-		background-color:hsl(240,100%,88%)}
+		background-color:hsl(240,100%,88%);}
 	section#play2{
-		background-color:hsl(25,88%,73%)}
+		background-color:hsl(25,88%,73%);}
 	section#play3 {
-		background-color:hsl(0,100%,75%)}
+		background-color:hsl(0,100%,75%);}
 	section#play4 {
-		background-color:hsl(296,86%,86%)}
+		background-color:hsl(296,86%,86%);}
 	/*setting the font*/		
 	section#play1 {
 		font-family:Champagne, cursive;}
@@ -118,20 +115,8 @@
 	dt{
 		font-size:1.3em;
 		font-weight:bold;
-		font:hsla(0,0%,0.4);}
+		color:hsla(0,0%,0%,0.4);}
 	dd{
 		 font-size:1.3em;
 		 margin-left:0px;
 		 margin-bottom:10px;}
-
-
-
-
-
-
-
-
-
-
-
-
