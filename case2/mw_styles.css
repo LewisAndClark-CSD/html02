@@ -15,6 +15,7 @@
 
 /* Structural Styles */
 
+
 html {
 	background-color: rgb(173, 189, 227);
 }
@@ -37,8 +38,6 @@ address {
 	padding-top: 10px;
 	padding-bottom: 10px;
 }
-
-
 
 /* Heading Styles */
 
@@ -75,19 +74,18 @@ article#tour_summary h1 {
 }
 
 article#tour_summary p {
-	font-size:1.1em;
+	font-size: 1.1em;
 }
 
-article#tour_summary p:first-of-type:first-line {
+article#tour_summary p:first-of-type::first-line {
 	font-size: 1.2em;
 	font-variant: small-caps;
 }
-
 	
 /* Aside Styles */
 
 aside#tour_itinerary h1 {
-	font-size:1.2em;
+	font-size: 1.2em;
 }
 
 aside#tour_itinerary h2 {
@@ -95,7 +93,7 @@ aside#tour_itinerary h2 {
 }
 
 aside#tour_itinerary p {
-	font-size:0.8em;
+	font-size: 0.8em;
 }
 
 aside#tour_itinerary h2:nth-of-type(odd), aside#tour_itinerary p:nth-of-type(odd) {
@@ -111,4 +109,12 @@ aside#tour_itinerary h2:nth-of-type(even), aside#tour_itinerary p:nth-of-type(ev
 blockquote {
 	background-color: rgb(173, 189, 227);
 	color: rgba(255, 255, 255, 0.65);
+}
+
+blockquote p {
+	padding-top: 2.5px;
+	padding-bottom: 2.5px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
 	
