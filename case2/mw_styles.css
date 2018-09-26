@@ -42,10 +42,21 @@ address {
 
 /* Heading Styles */
 
+h1 {
+	font-weight:normal;
+}
 
+h2 {
+	font-weight: normal;
+}
 
 /* Navigation Styles */
 
+nav > ul {
+	text-decoration: none;
+	line-height: 2em;
+	font-size: 0.9em;
+}
 
 
 
