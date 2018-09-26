@@ -72,7 +72,7 @@ nav {
 /* Section Styles */
 section.playbill h1 {
     font-size: 3em;
-    font-wieght: normal;
+    font-weight: normal;
     margin: 0px;
     padding-top: 20px;
     padding-right: 0px;
@@ -99,4 +99,13 @@ play4 {
 
 
 /* Description List Styles */
-
+dt {
+    font-size: 1.3em;
+    font-weight: bold;
+    color: hsla(0, 0%, 0%, 0.4);
+}
+dd {
+    font-size: 1.3em;
+    margin-left: 0px;
+    margin-bottom: 10px;
+}
