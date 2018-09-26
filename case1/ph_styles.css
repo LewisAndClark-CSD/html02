@@ -81,7 +81,7 @@
 
 
 /* Section Styles */
-	h1{
+	section.playbill h1{
 		font-size:3em;
 		font-weight:normal;
 		margin:0px;
@@ -89,6 +89,16 @@
 		padding-right:0px;
 		padding-bottom:10px;
 		padding-left:20px;}
+	section.playbill play1{
+		background-color:hsl(240,100%,88%)}
+	section.playbill play2{
+		background-color:hsl(25,88%,73%)}
+	section.playbill play3{
+		background-color:hsl(0,100%,75%)}
+	section.playbill play4{
+		background-color:hsl(296,86%,86%)}
+
+
 
 
 
