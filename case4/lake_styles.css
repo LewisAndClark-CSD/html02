@@ -1,4 +1,18 @@
-﻿@/*
+﻿@charset "utf-8";
+
+@font-face {
+	font-family: Champagne;
+	src: url('cac_champagne.woff') format('woff'),
+		   url('cac_champagne.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: Dobkin;
+	src: url('DobkinPlain.woff') format('woff'),
+		   url('DobkinPlain.ttf') format('truetype');
+}
+
+@/*
    New Perspectives on HTML5 and CSS3, 7th Edition
    Tutorial 2
    Case Problem 4
@@ -10,3 +24,4 @@
    Filename: lake_styles.css
 
 */
+
