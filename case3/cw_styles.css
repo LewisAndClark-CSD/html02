@@ -94,6 +94,15 @@ nav#outline > h1 {
 	text-align: center;
 }
 
+nav#outline > ol ol {
+	line-height: 2em;
+	margin-top:0px;
+	margin-bottom: 0px;
+	margin-right:5px;
+	margin-left: 5px;
+	list-style-type: upper-Roman;
+}
+
 /* Section Styles */
 
 
