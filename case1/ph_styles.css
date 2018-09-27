@@ -2,16 +2,20 @@
 @font-face{
 		font-family:Champagne;
 		src: url('cac_champagne.woff') format('woff'),
-		url('cac_champagne.tff') format('truetype');}
+		url('cac_champagne.tff') format('truetype');
+}
 @font-face{	
-		font-family:Grune;	
+		font-family:Grunge;	
 		src: url('1942.woff') format('woff'),
-		url('1942.tff') format('truetype');}
+		url('1942.tff') format('truetype');
+}
 @font-face{
 		font-family:Dobkin;
 		src: url('DobkinPlain.woff') format('woff'),
-		url('DobkinPlain.tff') format('truetype');}
-	
+		url('DobkinPlain.tff') format('truetype');
+}
+
+		
 
 	
 /*
@@ -87,6 +91,7 @@
 		padding-right:0px;
 		padding-bottom:10px;
 		padding-left:20px;}
+		
 	/* setting the background color*/
 	section#play1{
 		background-color:hsl(240,100%,88%);}
@@ -96,14 +101,16 @@
 		background-color:hsl(0,100%,75%);}
 	section#play4 {
 		background-color:hsl(296,86%,86%);}
+		
 	/*setting the font*/		
-	section#play1 {
+	section.playbill#play1 h1 {
 		font-family:Champagne, cursive;}
-	section#play2{
-		font-family:Grunge,'Times New Roman',Times, serif;}
-	section#play3{
+	section.playbill#play2 h1{
+		font-family: Grunge,'Times New Roman',Times, serif;
+	}
+	section.playbill#play3 h1{
 		font-family:Impact,Charcoal, sans-serif;}
-	section#play4{
+	section.playbill#play4 h1{
 		font-family:Dobkin, cursive;}
 
 
