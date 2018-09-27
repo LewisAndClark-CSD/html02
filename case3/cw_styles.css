@@ -73,13 +73,26 @@ nav#mainlinks {
 	padding-bottom: 5px;
 }
 
+nav#mainlinks > ul > li > a:link, nav#mainlinks > ul > li > a:visited {
+	color: white;
+}
 
+nav#mainlinks > ul > li > a:hover, nav#mainlinks > ul > li > a:active {
+	color: rgba(255, 255, 255, 0.8)l;
+	background-color: rgba(51, 51, 51, 0.5)
+}
 
 
 /* Outline Styles */
 
+nav#outline {
+	color: rgb(51, 51, 51);
+	font-size: 0.8em;
+}
 
-
+nav#outline > h1 {
+	text-align: center;
+}
 
 /* Section Styles */
 
