@@ -94,18 +94,72 @@ body > header{
     color: rgb(51,51,51);
     font-size:0.8em;
   }
+  
 
-
+  #outline h1 {
+    text-align: center;
+  }
+  
+  #outline ol {
+    line-height: 2em;
+    margin-top:0px;
+    margin-bottom:0px;
+    margin-left:5px;
+    margin-right:5px;
+    list-style-type:upper-roman;
+  }
+  
+  #outline ol > ol{
+    text-transform: uppercase;
+  }
+  
+  #outline a:link{
+    color:rgb(101,101,101);
+  }
+  
+  #outline a:visited{
+    color:rgb(101,101,101);
+  }
+  
+  #outline a:hover{
+    color:rgb(97,97,211);
+    text-decoration:underline;
+  }
+  
+  #outline a:active{
+    color:rgb(97,97,211);
+    text-decoration:underline;
+  }
 
 /* Section Styles */
-
-
+  
+  section{
+    background-color:rgb(220,220,220);
+  }
+  
+  section header > h1{
+    font-size:2.2em;
+    padding-left:10px;
+  }
 
 
 /* Article Styles */
+  
+  article > h2{
+    font-size:1.4em;
+  }
 
-
-
+  article > #paragraph::first-letter {
+    font-size: 2em;
+    vertical-align: baseline;
+  }
+    
 
 /* Aside Styles */
-
+  aside {
+    font-size:0.9em;
+  }
+   aside > h1{
+     font-size:1.4em;
+     text-align: center;
+   }
