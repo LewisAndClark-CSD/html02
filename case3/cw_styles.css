@@ -78,7 +78,7 @@ body > header > h1 > span {
 	opacity: 0.8;
 	background-color: rgba(51, 51, 51, 0.5);
 }
-#mainLinksa:active {
+#mainLinks a:active {
 	opacity: 0.8;
 	background-color: rgba(51, 51, 51, 0.5);
 }

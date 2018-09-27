@@ -1,4 +1,8 @@
 ﻿@charset "utf-8";
+@font-face{
+    font-family: Comic Sans MS; 
+    src:url('comic.ttf') format('truetype');
+}
 /*
    New Perspectives on HTML5 and CSS3, 7th Edition
    Tutorial 2
@@ -11,3 +15,73 @@
    Filename: lake_styles.css
 
 */
+
+/*Structural Styles*/
+html {
+	background-color: rgb(204, 255, 255);
+}
+
+body {
+	font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
+
+
+/*Body Header Styles*/
+
+
+
+
+/*Navigation Styles*/
+header > nav > ul {
+	background-color: rgb(179, 71, 0);
+}
+
+header > nav > ul > li a:visited {
+	color: white;
+		text-decoration: none;
+}
+header > nav > ul > li a:link{
+	color: white;
+		text-decoration: none;
+}
+header > nav > ul > li a:hover {
+	opacity: 0.8;
+	background-color: rgba(51, 51, 51, 0.5);
+}
+header > nav > ul > li a:active {
+	opacity: 0.8;
+	background-color: rgba(51, 51, 51, 0.5);
+}
+
+
+
+/*Section Styles*/
+#rightcol {
+	background-color: rgb(153, 102, 255);
+}
+
+#rightcol h2 {
+	color: white;
+}
+
+
+
+/*Article Styles*/
+
+
+
+
+/*Aside Styles*/
+
+
+
+
+/*Blockquote Styles*/
+
+	
+
+
+
+/*Footer Styles*/
+
+
