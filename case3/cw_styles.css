@@ -48,7 +48,7 @@
 	body > header > h1{
 		margin: 0px;
 		font-family: limelight, cursive;
-		font-size: 4vw;
+		font-size: 4em;
 		color: rgba(255, 255, 255, 0.8);
 	}
 	
@@ -78,12 +78,17 @@
 		text-align: center;	
 	}
 	
-	nav#outline > ol li > ol{
+	nav#outline ol{
+		list-style-type:upper-roman;
 		color: rgb(51, 51, 51);
 		font-size: 0.8em;
 	}
 	
-	nav#outline > li{
+	nav#outline ol ol {
+		list-style-type:upper-alpha;
+	}
+	
+	nav#outline li{
 		line-height: 2em;
 		margin-bottom: 0px;
 		margin-top: 0px;
@@ -91,24 +96,51 @@
 		margin-right: 5px;
 	}
 	
-	/*nav#outline > ol > li > a:link, nav#outline > ol > li > a:visited{
-		
+	nav#outline > ol li a:link, nav#outline > ol li a:visited{
+		color: rgb(101, 101, 101);
+		text-decoration: none;
 	}
-	nav#outline > ol> li > a:hover, nav#outline > ol > li > a:active{
-		
+	
+	nav#outline > ol li a:hover, nav#outline > ol li a:active{
+		color:rgb(97, 97, 211);
+		text-decoration: underline;
 	}
-	*/
+	
 
 
 /* Section Styles */
 
-
-
+	section {
+		background-color: rgb(220, 220, 220);
+	}
+	
+	section header h1{
+		font-size: 2.2em;
+		padding-left: 10px;
+	}
 
 /* Article Styles */
-
-
+	
+	article h2{
+		font-size: 1.4em;	
+	}
+	
+	article p:first-of-type:first-letter{
+		font-size: 2em;
+		vertical-align: baseline;
+	}
 
 
 /* Aside Styles */
+
+	aside{
+		font-size: 0.9em;
+	}
+	
+	aside h1{
+		font-size: 1.4em;	
+		text-align: center;
+	}
+	
+	
 
