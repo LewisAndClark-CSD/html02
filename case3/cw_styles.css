@@ -60,14 +60,18 @@ body > header > h1 {
 	margin: 0px;
 }
 
-span > h1::after {
-	content: online;
-	color: rgba(255, 255, 255, 0.4);
+body > header > h1 > span {
+	color: rgba(255, 255, 255, 0.4)	
 }
-	
+
 
 
 /* Navigation Styles */
+
+nav#mainlinks {
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
 
 
 
