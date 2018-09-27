@@ -25,3 +25,11 @@
 
 */
 
+html {
+	background-color: gold;
+}
+
+body {
+	background-color: white;
+	color: rgba(254, 69, 69, 0.3);
+}
