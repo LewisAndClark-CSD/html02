@@ -42,19 +42,55 @@ footer{
 	padding-bottom:1px;
 }
 /* Body Header Styles */
-
-
+body > header {
+	background-color: rgb(97,97,211);
+}
+body > header > h1 {
+	font-size: 4vw;
+	color: rgba(255,255,255,0.8);
+	font-family: Limelight, cursive;
+	margin: 0px;
+}
+body > header > h1 > span {
+	color: rgba(255,255,255,0.4);
+}
 
 
 /* Navigation Styles */
-
-
+#mainLinks a:link {
+	padding-top: 5px;
+	padding-bottom: 5px;
+	color: white;
+}
+#mainLinks a:visited {
+	color: white;
+}
+#mainLinks a:hover {
+color: rgba(255, 255, 255, 0.8);
+background-color: rgba(51, 51 ,51, 0.5);
+}
+#mainLinks a:active {
+color: rgba(255, 255, 255, 0.8);
+background-color: rgba(51, 51 ,51, 0.5);
+}
 
 
 /* Outline Styles */
-
-
-
+#outline ol {
+	color: rgb(51, 51, 51);
+	font-size: 0.8em;
+}
+#outline h1 {
+	text-align: center;
+}
+#outline ol:nth-child(1) {
+	line-height: 2em;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	margin-left: 5px;
+	margin-right: 5px;
+	list-style-type: upper-roman;
+}
 
 /* Section Styles */
 
