@@ -1,0 +1,140 @@
+﻿@charset 'utf-8';
+
+@font-face {
+    font-family: Champagne;
+    src: url('cac_champagne.woff') format('woff'),
+        url('cac_champange.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: Dobkin;
+    src: url('DobkinPlain.woff') format('woff'),
+        url('DobkinPlain.ttf') format('truetype');
+}
+
+
+/*
+   New Perspectives on HTML5 and CSS3, 7th Edition
+   Tutorial 2
+   Case Problem 4
+   
+   Great Lakescape Lodge Style Sheet
+   Author: Lane Doyle and E.Ruiz
+   Date: 9/27/18  
+   
+   Filename: lake_styles.css
+
+*/
+
+
+/* Structural Styles */
+html {
+    background-color: rgb(100, 84, 148);
+}
+
+body {
+    background-color: rgb(171, 138, 189);
+    font-family: American Typewriter, serif;
+}
+
+section#leftcol {
+    background-color: white;
+}
+
+footer {
+    background-color: rgb(141, 156, 190);
+}
+
+section#rightcol {
+    color: rgb(51, 10, 89);
+}
+
+p {
+    padding-right: 20px;
+    padding-left: 20px;
+    text-align: left;
+}
+
+/* Heading Styles */
+section > h1 {
+    font-family: 'Charmonman', cursive;
+    font-size: 2em;
+    text-align: left ;
+    padding-left: 10px;
+    
+}
+
+h1 + img {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+h2 {
+    font-family: 'Charmonman', cursive;
+}
+
+/* Navigation Styles */
+nav > ul > li > a:link, nav > ul > li > a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+nav > ul > li > a:hover, nav > ul > li > a:active {
+    color: darkgray;
+    text-decoration: none;
+}
+
+section#rightcol > nav > ul {
+    list-style-type: none;
+}
+
+
+/* Aside Styles */
+aside > ul > li > a {
+    text-decoration: none;
+    color: purple;
+}
+
+aside > ul > li > cite > a {
+    text-decoration: none;
+    color: purple; 
+}
+
+aside#first {
+    background-color: rgba(141, 156, 190, 0.8);
+    margin-bottom: 10px;
+}
+
+aside#second {
+    background-color: rgba(141, 156, 190, 0.8);
+}
+
+aside > h1 {
+    font-family: 'Acme', sans-serif;
+    text-align: center;
+}
+
+aside > h2 {
+    text-align: center;
+}
+
+/* Blockquote Styles */
+blockquote::before {
+    content: open-quote;
+}
+
+blockquote::after {
+    content: close-quote;
+}
+
+blockquote {
+    padding-top: 100px;
+    quotes: "\201C" "\201D";
+}
+
+
+
+
+
+
+
