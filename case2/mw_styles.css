@@ -18,6 +18,7 @@ html{
 	background-color: rgb(172, 189, 227);
 }
 body {
+	background-image: url("lake_logo.png");
 	background-color: rgb(227, 210, 173);
 	font-family: 'Century Gothic', sans-serif;
 }
