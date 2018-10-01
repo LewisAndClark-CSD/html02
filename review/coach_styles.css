@@ -111,11 +111,20 @@
 
 /* Paragraph Styles */
 
-
-
+	p{
+		margin-top: 10px;
+		margin-bottom: 10px;
+		margin-left: 0px;
+		margin-right: 30px;
+	}
+	
 /* List Styles */
 
-
+	article.coach_bio > header > ul{
+		list-style-image: url("check.png");
+		margin: 0px;
+		margin-bottom: 10px;
+	}
 
 
 
