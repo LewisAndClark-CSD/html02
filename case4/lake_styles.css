@@ -32,7 +32,7 @@
 	}
 	
 	body{
-		background-color: rgb(240, 240, 240);
+		background-color:rgb(191, 135, 229);
 	}
 	
 	footer{
@@ -44,14 +44,94 @@
 		background-color: rgb(24, 27, 30);
 	}
 	
+	section#leftcol{
+		background-color: rgb(240, 240, 240);
+	}
+	
 /* Body Header Styles */
 
+	
+
 /* Navigation Styles */
+	
+	body > header > nav > ul > li a:link, body > header > nav  > ul > li a:visited {
+		text-decoration:none;
+		background-color: rgb(81, 0, 99);
+		color: white;
+		padding-top: 7px;
+		padding-bottom: 7px;
+		transition: 0.2s;
+	}
+	
+	body > header > nav > ul > li a:hover, body > header > nav > ul > li a:active{
+		text-decoration:none;
+		background-color: rgb(197, 76, 224);
+		color: black;
+		padding-top: 7px;
+		padding-bottom: 7px;
+		transition: 0.3s;
+	}
 
 /* Outline Styles */
 
 /* Section Styles */
+	
+	/* left column section */
+	
+	section#leftcol p{
+		font-size: 1.25em;
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+	
+	section#leftcol > h1:first-of-type{
+		padding-left: 15px;
+		font-weight: normal;
+		font-family: Champagne, cursive;
+		font-size: 5em;
+		margin: 0px;
+	}
+	
+	section#leftcol aside{
+		padding-left: 15px;
+		padding-right: 15px;
+		
+	}
+	
+	section#leftcol aside#notes{
+		background-color: rgb(234, 124, 124);
+	}
+	section#leftcol aside#notes ul{
+		list-style: circle;
+	}
+	
+	section#leftcol aside#upcoming_events{
+		background-color: rgb(132, 113, 63);
+	}
+	
+	section#leftcol aside#upcoming_events h2{
+		font-family: Arial;
+		font-weight: normal;
+		font-size: 1.1em;
+	}
+	
+	section#leftcol aside#upcoming_events p{
+		font-size: 0.9em;
+	}
+	
+	section#leftcol aside h1{
+		font-size: 1.6em;
+		margin-top: 10px;
+		text-align:center;
+	}
+	
+	/* right column section */
 
+	section#rightcol h2{
+		font: Champagne, cursive;
+	}
+	
+	
 /* Article Styles */
 
 /* Aside Styles */
