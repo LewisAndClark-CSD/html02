@@ -70,7 +70,12 @@
 	#tour_summary p {
 		font-size:1.1em;
 	}
-	#tour_summary :first-of-type 
+	#tour_summary p :first-of-type:first-line {
+		font-size:1.2em;
+		font-variant:small-caps;
+	}	
+		
+			
    
 
 
