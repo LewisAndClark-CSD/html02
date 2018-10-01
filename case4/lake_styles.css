@@ -128,10 +128,40 @@
 	/* right column section */
 
 	section#rightcol h2{
-		font: Champagne, cursive;
+		font-family: Champagne, cursive;
+		font-weight: normal;
 	}
 	
+	section#rightcol ul{
+		list-style: none;
+	}
 	
-/* Article Styles */
-
-/* Aside Styles */
+	section#rightcol ul > li a:link, section#rightcol ul > li a:visited {
+		text-decoration:none;
+		color:rgba(33, 33, 33, 55%);
+		transition: 0.2s;
+	}
+	
+	section#rightcol ul > li a:hover, section#rightcol ul > li a:active{
+		text-decoration:none;
+		color: white;
+		transition: 0,2s;
+	}
+	section#rightcol blockquote:before{
+		content: "\0201C";
+		font-size: 1.4em;
+		font-weight: bold;
+		color: rgb(53, 10, 86);
+	}
+	section#rightcol blockquote:after{
+		content: "\0201D";
+		font-size: 1.4em;
+		font-weight: bold;
+		color: rgb(53, 10, 86);
+	}
+	section#rightcol blockquote{
+		font-size: 1.3em;
+		margin-left: 0px;
+		padding-top: 60px;
+		color: rgb(53, 10, 86);
+	}
