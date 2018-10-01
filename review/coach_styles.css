@@ -55,10 +55,35 @@
 		padding-left: 10px;
 	}
 	
+	article.coach_bio h2{
+		font-size: 1.6em;
+		font-weight: normal;
+		color: rgb(240, 125, 0);
+	}
 
 /* Blockquote Styles */
-
-
+	
+	aside blockquote:before{
+		content: "\201C";
+		font-size: 1.6em;
+		font-weight: bold;
+		font-family: "Times New Roman", Times, serif;
+	}
+	
+	aside blockquote{
+		font-family: "Comic Sans MS", cursive; 
+		font-size: 0.95em;
+		color: rgba(255, 255, 255, 0.75);
+		background-color: rgb(222, 128, 60);
+		padding: 10px;
+	}
+	
+	aside blockquote:after{
+		content: "\201D";
+		font-size: 1.6em;
+		font-weight: bold;
+		font-family: "Times New Roman", Times, serif;
+	}
 
 
 /* Navigation Styles */	
