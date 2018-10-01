@@ -1,11 +1,18 @@
+@charset "utf-8";
+
+@font-face{	
+		font-family: Nobile;
+		src: url("nobile-webfont.woff") format("woff"),
+		url("nobile-webfont.ttf") format("truetype");
+	}
 /*
    New Perspectives on HTML5 and CSS3, 7th Edition
    Tutorial 2
    Review Assignment
    
    TSS Typographic Style Sheet
-   Author: 
-   Date:   
+   Author: Steven Thompson and Josh Bentley
+   Date:   10/1/2018
    
    Filename: coach_styles.css
 
@@ -13,13 +20,41 @@
 
 
 /* Main Structural Styles */
-
-
-
-
+	html{
+		background-color: hsl(27, 72%, 72%);
+	}
+	
+	body{
+		font-family: Verdana, Geneva, sans-serif;
+		background-color: ivory;
+		color: rgb(91, 91, 91);
+	}
+	
+	body > footer address{
+		font-family: Nobile, Verdana, Geneva, sans-serif;
+		background-color: rgb(222, 128, 60);
+		color: rgba(255, 255, 255, 0.6); 
+		font-weight: normal;
+		font-variant: small-caps;
+		font-size: 0.9em;
+		line-height: 3em;
+		text-align: center;
+	}
+	
 /* Heading Styles */
-
-
+	 h1{
+		font-weight: normal;
+		font-family: Nobile, Verdana, Geneva, sans-serif;
+		letter-spacing: 0.2em;
+		margin: 0px;
+	}
+	section#tss_coaches h1{
+		font-size: 2.5em;
+		color: hsl(27, 82%, 85%);
+		background-color: hsl(27, 6%, 21%);
+		padding-left: 10px;
+	}
+	
 
 /* Blockquote Styles */
 
