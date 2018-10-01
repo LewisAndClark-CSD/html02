@@ -83,7 +83,7 @@ background-color: rgba(51, 51 ,51, 0.5);
 #outline h1 {
 	text-align: center;
 }
-#outline ol:nth-child(1) {
+ol {
 	line-height: 2em;
 	margin-top: 0px;
 	margin-bottom: 0px;
@@ -91,16 +91,55 @@ background-color: rgba(51, 51 ,51, 0.5);
 	margin-right: 5px;
 	list-style-type: upper-roman;
 }
+ol ol {
+	list-style-type: upper-alpha;
+}
+
+#outline a:visited {
+	color: rgb(101,101,101);
+}
+
+#outline a:link {
+	color: rgb(101,101,101);
+}
+
+#outline a:hover{
+	color: rgb(97,97,211);
+	text-decoration: underline;
+}
+
+#outline a:active {
+	color: rgb(97,97,211);
+	text-decoration: underline;
+}
 
 /* Section Styles */
+section {
+	background-color: rgb(220,220,220);
+}
 
+section header h1 {
+	font-size: 2em;
+	padding-bottom: 10px;
+}
 
 
 
 /* Article Styles */
+article h2 {
+	font-size: 1.4em;
+}
 
-
-
+article p:first-of-type:first-letter {
+	font-size: 2em;
+	vertical-align: baseline;
+}
 
 /* Aside Styles */
-
+aside{
+	font-size: 0.9em;
+}
+aside h1 {
+	font-size: 1.4em;
+	text-align: center;
+}
