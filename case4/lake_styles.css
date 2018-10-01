@@ -26,10 +26,13 @@
 */
 
 html {
-	background-color: gold;
+	background-color: rgb(193, 158, 17);
 }
 
 body {
-	background-color: white;
-	color: rgba(254, 69, 69, 0.3);
+	background-color: salmon;
+	color: ;
 }
+
+section {
+	background-color: white;
