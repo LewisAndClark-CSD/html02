@@ -92,5 +92,7 @@ section#leftcol img {
 	width: 100%;
 	display: block;
 }
-
+img{
+	text-align: center;
+}
 
