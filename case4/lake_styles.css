@@ -21,13 +21,15 @@
    Filename: lake_styles.css
 
 */
+
+/* Structural Styles */
 html {
     background-color: rgb(189, 183, 107);
 }
 body {
     background-color: white;
 }
-header nav a {
+nav a {
     text-decoration: none;
 }
 footer {
@@ -37,4 +39,22 @@ footer {
     text-align: center;
     padding-top: 1px;
     padding-bottom: 1px;
+}
+
+/* Body Header Styles */
+body header {
+    background-color: rgb(139, 0, 139);
+}
+
+/* Navigation Styles */
+header nav ul a {
+    color: rgb(192, 192, 192);
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+section#rightcol nav ul {
+    list-style-type: none;
+}
+section#rightcol nav ul a {
+    color: rgb(105, 105, 105);
 }
