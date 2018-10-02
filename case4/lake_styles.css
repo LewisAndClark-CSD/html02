@@ -72,8 +72,6 @@
 		transition: 0.3s;
 	}
 
-/* Outline Styles */
-
 /* Section Styles */
 	
 	/* left column section */
@@ -101,6 +99,7 @@
 	section#leftcol aside#notes{
 		background-color: rgb(234, 124, 124);
 	}
+	
 	section#leftcol aside#notes ul{
 		list-style: circle;
 	}
@@ -147,18 +146,21 @@
 		color: white;
 		transition: 0,2s;
 	}
+	
 	section#rightcol blockquote:before{
 		content: "\0201C";
 		font-size: 1.4em;
 		font-weight: bold;
 		color: rgb(53, 10, 86);
 	}
+	
 	section#rightcol blockquote:after{
 		content: "\0201D";
 		font-size: 1.4em;
 		font-weight: bold;
 		color: rgb(53, 10, 86);
 	}
+	
 	section#rightcol blockquote{
 		font-size: 1.3em;
 		margin-left: 0px;

@@ -5,6 +5,7 @@
 	font-family: limelight;
 	src: url("Limelight-Regular.ttf") format("truetype");
 	}
+	
 /*
    New Perspectives on HTML5 and CSS3, 7th Edition
    Tutorial 2
@@ -17,7 +18,6 @@
    Filename: cw_styles.css
 
 */
-
 
 /* Structural Styles */
 
@@ -106,8 +106,6 @@
 		text-decoration: underline;
 	}
 	
-
-
 /* Section Styles */
 
 	section {
@@ -129,7 +127,6 @@
 		font-size: 2em;
 		vertical-align: baseline;
 	}
-
 
 /* Aside Styles */
 
