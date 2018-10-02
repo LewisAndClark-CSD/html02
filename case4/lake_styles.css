@@ -27,7 +27,7 @@ html {
     background-color: rgb(189, 183, 107);
 }
 body {
-    background-color: white;
+    background-color: rgb(221, 160, 221);
 }
 nav a {
     text-decoration: none;
@@ -58,3 +58,29 @@ section#rightcol nav ul {
 section#rightcol nav ul a {
     color: rgb(105, 105, 105);
 }
+aside ul {
+    list-style-type: circle;
+}
+
+/* Section Styles */
+section#leftcol > h1 {
+    font-family: 'Dobkin';
+    font-size: 2.5em;
+    font-weight: normal;
+}
+section#rightcol h2 {
+    font-family: 'Dobkin';
+    font-size: 1.7em;
+    font-weight: normal;
+}
+section#leftcol {
+    background-color: white;
+}
+section#rightcol blockquote {
+    color: rgb(75,0,130);
+}
+
+
+
+
+
