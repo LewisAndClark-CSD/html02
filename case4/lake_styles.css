@@ -28,6 +28,7 @@ html {
 }
 body {
     background-color: rgb(221, 160, 221);
+    font-family: 'Champagne', sans-serif;
 }
 nav a {
     text-decoration: none;
@@ -78,8 +79,42 @@ section#leftcol {
 }
 section#rightcol blockquote {
     color: rgb(75,0,130);
+    font-size: 1.2em;
+    font-weight: normal;
+    padding-top: 10px;
 }
-
+section#rightcol blockquote:before {
+    content: '\201C';
+    font-size: 1.5em;
+    font-weight: bold;
+}
+section#rightcol blockquote:after {
+    content: '\201D';
+    font-size: 1.5em;
+    font-weight: bold;
+}
+section#leftcol p {
+    font-size: 1.1em;
+}
+/* Aside Styles */
+aside h1 {
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: normal;
+}
+aside:first-of-type {
+    background-color: rgba(240, 128, 128, 0.95);
+}
+aside:last-of-type {
+    background-color: rgba(218, 165, 32, 0.95);
+}
+aside:last-of-type h2 {
+    font-weight: normal;
+    font-size: 1.2em;
+}
+aside:last-of-type p {
+    font-size: 0.8em;
+}
 
 
 
