@@ -33,17 +33,16 @@ html {
 
 body {
 	background-color: plum;
-	
 }
 
 /* Header Styles */
 
 header {
-	background-color:rgb(92, 17, 124);
+	background-color: rgb(92, 17, 124);
 }
 header > nav > ul > li > a:link, header > nav > ul > li > a:visited {
 	color: rgb(196, 184, 105);
-	text-decoration:none;
+	text-decoration: none;
 	margin-top: 5px;
 	margin-bottom: 5px;
 }
@@ -92,6 +91,11 @@ section#leftcol > aside {
 	line-height: 1.5em;
 }
 
+section#leftcol > aside > ul > li {
+	list-style-type: circle;
+	font-size: 0.9em;
+}
+
 section#leftcol > aside#events {
 	background-color: rgba(174, 121, 31, 0.6);
 	padding-left: 5px;
@@ -103,8 +107,9 @@ section#leftcol > aside#events h2 {
 	font-weight: normal;
 }
 
-section#leftcol > aside > ul > li {
-	list-style-type: circle;
+section#leftcol > aside#events p {
+	font-size: 0.9em;
+	line-height: 1.1em;
 }
 
 /* Right Column Section Styles */
@@ -113,21 +118,21 @@ section#rightcol {
 	background-color: plum;
 }
 
-#rightcol h2{
+#rightcol h2 {
 	font-family: Champagne, cursive;
 	font-size: 2em;
 	font-weight: normal;
-	color:rgb(92, 17, 124);
+	color: rgb(92, 17, 124);
 	margin: -5px;
 	margin-top: 10px;
 }
 
-section#rightcol > nav > ul > li > a:link, section#rightcol > nav > ul > li >a:visited {
+section#rightcol > nav > ul > li > a:link, section#rightcol > nav > ul > li > a:visited {
 	text-decoration: none;
 	color: gray;
 }
 
-section#rightcol > nav > ul > li > a:hover, section#rightcol > nav > ul > li >a:active {
+section#rightcol > nav > ul > li > a:hover, section#rightcol > nav > ul > li > a:active {
 	text-decoration: underline;
 	color: rgba(255, 255, 255, 0.7);
 }
@@ -136,27 +141,27 @@ section#rightcol > nav > ul > li {
 	list-style-type: none;
 	font-weight: none;
 	font-size: 0.9em;
-	text-align:left;
+	text-align: left;
 	margin-left: -10px;
 }
 
-/* Blockquote Styles */
+/* Right Column Blockquote Styles */
 
 blockquote {
 	color: rgb(92, 17, 124);
-	font-size:1.2em;
+	font-size: 1.2em;
 	font-family: 'Times New Roman', Times, serif;
 	quotes: "\201C" "\201D";
 	margin-left: -5px;
-	margin-top: 75px;
+	margin-top: 95px;
 	line-height: 1.3em;
 }
 
 blockquote::before {
 	content: open-quote;
 	font-family: 'Times New Roman', Times, serif;
-	font-size:1.4em;
-	font-weight:bold;
+	font-size: 1.4em;
+	font-weight: bold;
 }
 
 blockquote::after {
@@ -172,8 +177,6 @@ footer {
 	background-color: black;
 	color: white;
 	text-align: center;
-	font-size: 0.7em;
-	font-weight: bold;
-	padding-top: 5px;
-	padding-bottom: 5px;
+	font: normal small-caps bold 0.8em/2em
+			Arial, Helvetica, sans-serif;
 }

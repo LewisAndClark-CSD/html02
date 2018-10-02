@@ -15,7 +15,6 @@
 
 /* Structural Styles */
 
-
 html {
 	background-color: rgb(173, 189, 227);
 }
@@ -42,7 +41,7 @@ address {
 /* Heading Styles */
 
 h1 {
-	font-weight:normal;
+	font-weight: normal;
 }
 
 h2 {
@@ -59,11 +58,11 @@ nav > ul {
 
 nav > ul > li > a:link, nav > ul > li > a:visited {
 	text-decoration: none;
-	color: rgb(43, 59, 125)
+	color: rgb(43, 59, 125);
 }
 
 nav > ul > li > a:hover, nav > ul > li > a:active {
-	color: rgb(212, 35, 35)
+	color: rgb(212, 35, 35);
 }
 
 /* Article Styles */

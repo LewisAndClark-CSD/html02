@@ -26,11 +26,7 @@ body {
 	font-family: Verdana, Geneva, sans-serif;
 }
 
-h1 {
-	font-weight: normal;
-}
-
-h2 {
+h1, h2 {
 	font-weight: normal;
 }
 
@@ -61,23 +57,23 @@ body > header > h1 {
 }
 
 body > header > h1 > span {
-	color: rgba(255, 255, 255, 0.4)	
+	color: rgba(255, 255, 255, 0.4);	
 }
 
 /* Navigation Styles */
 
-nav#mainlinks {
+nav#mainLinks {
 	padding-top: 5px;
 	padding-bottom: 5px;
 }
 
-nav#mainlinks > ul > li > a:link, nav#mainlinks > ul > li > a:visited {
+nav#mainLinks > ul > li > a:link, nav#mainLinks > ul > li > a:visited {
 	color: white;
 }
 
-nav#mainlinks > ul > li > a:hover, nav#mainlinks > ul > li > a:active {
-	color: rgba(255, 255, 255, 0.8)l;
-	background-color: rgba(51, 51, 51, 0.5)
+nav#mainLinks > ul > li > a:hover, nav#mainLinks > ul > li > a:active {
+	color: rgba(255, 255, 255, 0.8);
+	background-color: rgba(51, 51, 51, 0.5);
 }
 
 /* Outline Styles */
@@ -93,7 +89,7 @@ nav#outline > h1 {
 
 nav#outline > ol {
 	line-height: 2em;
-	margin-top:0px;
+	margin-top: 0px;
 	margin-bottom: 0px;
 	margin-right:5px;
 	margin-left: 5px;
@@ -119,7 +115,8 @@ nav#outline > ol > li > ol > li > a:hover, nav#outline > ol > li > a:hover, nav#
 section {
 	background-color: rgb(220, 220, 220);
 }
-section header h1{
+
+section header h1 {
 	font-size: 2.2em;
 	padding-left: 10px;
 }
