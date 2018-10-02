@@ -27,3 +27,14 @@ html {
 body {
     background-color: white;
 }
+header nav a {
+    text-decoration: none;
+}
+footer {
+    color: white;
+    background-color: black;
+    font-size: 0.8em;
+    text-align: center;
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
