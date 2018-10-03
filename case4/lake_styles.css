@@ -34,7 +34,7 @@
 		font-family: Verdana, Geneva, sans-serif;
 	}
 	body > footer{
-		color:rgb(255,255,255);
+		color:white;
 		background-color:rgb(102,51,0);
 		font-size:0.8em;
 		text-align:horizontal;
@@ -66,26 +66,67 @@
 		font-size:0.9em;
 	}
 	nav > ul > li > a:link, nav > ul > li > a:visited {
-		color: rgb(255,255,255);
+		color: rgb(51,153,255);
 
 	}
 	nav > ul > li > a:link, nav > ul > li > a:active {
-		color: rgb(255,255,255);
+		color: rgb(51,153,255);
 	}	
 
 
 /*Section Styles*/
-	section h1{
-		font-family:Dobkin;
-		font-size: 2.5em;
-	}
 	/*Psuedo Element*/
 	section p:first-of-type:first-letter{
 		font-size: 2em;
 		text-align:vertical;
 	}
-
-
-
+	section > nav {
+		background-color:hsl(20,100%,70%);
+	}	
+	/*Changing Bottom Review Box*/
+	section > blockquote {
+		background-color:hsl(60,100%,80%);
+		font-family:Champagne;
+		font-size:1.7em;
+		margin-top:-0.5em;
+		margin:35px;
+		padding:10px
+		}
+	section h2 {
+			font-family:Champagne;
+			font-size:1.7em;
+	}
+	/* Changing the Side Navigation Bar*/
+	section#rightcol > nav > h2:nth-of-type(odd) {
+			color:rgb(51,102,153);
+	}		
+	section#rightcol > nav > h2:nth-of-type(even) {
+			color:rgb(0,153,153);
+	}		
+	section#rightcol > nav > ul {
+		list-style-type:upper-roman;
+	}	
 
 /* Aside Styles */
+	aside > ul {
+		background-color:rgb(255,80,80);
+		font-family:Dobkin;
+		font-size:1.5em;
+	}	
+	aside > h2 {
+		background-color:rgb(255,153,102);
+		margin-bottom:-0.7em;
+	}	
+	aside > p {
+		background-color:rgb(255,153,102);
+	}	
+	
+	
+
+
+
+
+
+
+
+
